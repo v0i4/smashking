@@ -1,0 +1,36 @@
+{
+   "nome":"Triple King",
+   "preco":33.90,
+   "descricao":"Pão brioche, 3x hambúrguer de carne 100% bovina, 3x 3 fatias de bacon, 3x cheddar, cebola roxa, alface americana e king sauce",
+   "foto":"https://www.goomer.app/webmenu/smashking/product/3832404/picture/large/210626210619"
+}{
+   "nome":"Double King",
+   "preco":25.90,
+   "descricao":"Pão brioche, 2x hambúrguer de carne 100% bovina, 2x 3 fatias de bacon, 2x cheddar, cebola roxa, alface americana e king sauce.",
+   "foto":"https://www.goomer.app/webmenu/smashking/product/3832400/picture/large/210626210623"
+}{
+   "nome":"Smash King",
+   "preco":21.90,
+   "descricao":"Pão brioche, hambúrguer de carne 100% bovina, 3 fatias de bacon, cheddar, ceboloa roxa, alface americana e king sauce.",
+   "foto":"https://www.goomer.app/webmenu/smashking/product/3832397/picture/large/210626210623"
+}{
+   "nome":"Smash Burger",
+   "preco":16.90,
+   "descricao":"Pão brioche, hambúrguer de carne 100% bovina, mussarela e king sauce.",
+   "foto":"https://www.goomer.app/webmenu/smashking/product/3832391/picture/large/210205215348"
+}{
+   "nome":"Smash cheddar",
+   "preco":16.90,
+   "descricao":"Pão brioche, hambúrguer de carne 100% bovina, cheddar e king sauce.",
+   "foto":"https://www.goomer.app/webmenu/smashking/product/3832395/picture/large/210205215354"
+}{
+   "nome":"Smash Salad",
+   "preco":19.90,
+   "descricao":"Pão brioche, hambúrguer de carne 100% bovina, mussarela, cebola roxa, tomate, alface americana e king sauce.",
+   "foto":"https://www.goomer.app/webmenu/smashking/product/3832455/picture/large/210205215358"
+}{
+   "nome":"Smash vegetarian",
+   "preco":21.90,
+   "descricao":"Pão brioche, hambúrguer de grão de bico ou feijão branco, mussarela, cebola roxa, tomate, alface americana e king sauce.",
+   "foto":"https://www.goomer.app/webmenu/smashking/product/3832454/picture/large/210712005731"
+}
