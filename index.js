@@ -36,6 +36,7 @@ app.use("/", adicionais_routes);
 app.use("/", expediente_routes);
 
 //pull notifications
+/*
 const Token = require("../backend/src/models/token");
 app.post("/notifications", async (req, res) => {
   // Create the messages that you want to send to clients
@@ -153,5 +154,5 @@ app.post("/notifications", async (req, res) => {
     }
   })();
 });
-
+*/
 app.listen(process.env.PORT || 3000);
