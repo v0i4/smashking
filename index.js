@@ -10,7 +10,7 @@ let expo = new Expo({ accessToken: process.env.EXPO_ACCESS_TOKEN });
 const user_routes = require("./src/routes/users");
 const lanche_routes = require("./src/routes/lanches");
 const ordem_servico_routes = require("./src/routes/ordemservico");
-const token_routes = require("./src/routes/token");
+const token_routes = require("./src/routes/tokens");
 const adicionais_routes = require("./src/routes/adicional");
 const expediente_routes = require("./src/routes/expediente");
 
@@ -31,7 +31,7 @@ app.use(morgan("dev"));
 app.use("/", user_routes);
 app.use("/", lanche_routes);
 app.use("/", ordem_servico_routes);
-//app.use("/", token_routes);
+app.use("/", token_routes);
 app.use("/", adicionais_routes);
 app.use("/", expediente_routes);
 
