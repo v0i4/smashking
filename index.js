@@ -38,7 +38,7 @@ app.use("/", expediente_routes);
 
 //pull notifications
 
-const Token = require("../backend/src/models/token");
+const Token = require("./src/models/token");
 app.post("/notifications", async (req, res) => {
   // Create the messages that you want to send to clients
   let messages = [];
