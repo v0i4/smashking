@@ -31,7 +31,7 @@ app.use(morgan("dev"));
 app.use("/", user_routes);
 app.use("/", lanche_routes);
 app.use("/", ordem_servico_routes);
-app.use("/", token_routes);
+//app.use("/", token_routes);
 app.use("/", adicionais_routes);
 app.use("/", expediente_routes);
 
