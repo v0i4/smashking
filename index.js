@@ -16,6 +16,7 @@ const expediente_routes = require("./src/routes/expediente");
 
 mongoose.connect(
   "mongodb+srv://smashking:sm4sh_adm@smashking.7omtp.mongodb.net/smashking?retryWrites=true&w=majority",
+  //process.env.MONGO_URL,
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
@@ -36,7 +37,7 @@ app.use("/", adicionais_routes);
 app.use("/", expediente_routes);
 
 //pull notifications
-/*
+
 const Token = require("../backend/src/models/token");
 app.post("/notifications", async (req, res) => {
   // Create the messages that you want to send to clients
@@ -154,5 +155,5 @@ app.post("/notifications", async (req, res) => {
     }
   })();
 });
-*/
+
 app.listen(process.env.PORT || 3000);
