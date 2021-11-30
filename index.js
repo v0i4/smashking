@@ -10,7 +10,7 @@ let expo = new Expo({ accessToken: process.env.EXPO_ACCESS_TOKEN });
 const user_routes = require("./src/routes/users");
 const lanche_routes = require("./src/routes/lanches");
 const ordem_servico_routes = require("./src/routes/ordemservico");
-const token_routes = require("./src/routes/tokens");
+const token_routes = require("./src/routes/token");
 const adicionais_routes = require("./src/routes/adicional");
 const expediente_routes = require("./src/routes/expediente");
 
