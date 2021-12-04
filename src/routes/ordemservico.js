@@ -22,6 +22,21 @@ router.get("/ordemservico", async (req, res) => {
   }
 });
 
+//sort desc
+router.get("/ordemservico/user_id/:user_id", async (req, res) => {
+  try {
+    const user_id = req.params.user_id;
+    const ordens = await OrdemServico.find({ user_id: user_id })
+      .sort({
+        data: -1,
+      })
+      .limit(1);
+    res.json({ error: false, ordens });
+  } catch (err) {
+    res.json({ error: true, message: err.message });
+  }
+});
+
 //getById
 router.get("/ordemservico/:id", async (req, res) => {
   try {
