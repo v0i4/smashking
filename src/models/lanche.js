@@ -14,6 +14,7 @@ const Lanche = mongoose.model("Lanche", {
   },
   descricao: String,
   quantidade: Number,
+  categoria: String,
 });
 
 module.exports = Lanche;
